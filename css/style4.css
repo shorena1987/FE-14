@@ -1,0 +1,132 @@
+@font-face{
+    font-family: cursive;
+    src: url('../fonts/cursive.ttf');
+    font-family: good time;
+    src:url('../fonts/good\ times.ttf')
+    
+}
+body{
+
+    background-color: rgb(216, 209, 181);
+    background-image: url('../img/office1.jpg');
+    background-repeat: no-repeat;
+ 
+  
+  
+}
+.img{
+   
+    
+}
+    h3{
+        font-family: cursive;
+        margin-top: 20px;
+        color: rgb(250, 248, 242);
+        letter-spacing: 2px;
+        font-size: 25px;
+        margin-left: 45%;
+        max-width: 100%;
+       
+        
+    }
+   hr{ 
+       width: 600px;
+       opacity: 0.5;
+   }
+   .pp{
+    font-family: good time;
+    max-width: 100%;
+    color: rgb(250, 248, 242);
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-left: 20%;
+    line-height: 1.5px;
+    text-transform:uppercase;
+   
+   }
+.btn{
+    text-transform:uppercase;
+    font-family: good time;
+    color: rgb(250, 248, 242);
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding:7px;
+    background-color: rgb(124, 121, 107);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(165, 158, 158);
+    border:none;
+    margin:7px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20%;
+    transition-duration: 0.4s;
+    margin-bottom: 60px;
+
+}
+.btn:hover{
+    background-color:  rgb(94, 90, 74);
+    box-shadow:3px 3px 10px rgb(66, 65, 61)  ;
+    border:none;
+}
+.info{
+    background-color: rgb(236, 234, 225);
+    width: 800px;
+    height: 350px;
+    opacity: 0.5;
+    display: block;
+    margin: auto;
+    margin-bottom: 0;
+   
+    
+  
+  
+}
+.info{
+   
+    z-index: 0;
+    
+}
+.feat {
+    text-align: center;
+    font-family: good time;
+    color: rgb(68, 67, 64);
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform:uppercase;
+    padding-top: 10px;
+   
+
+}
+    
+hr{ 
+    width: 600px;
+    margin-bottom: 40px;
+ 
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+    
+.wth{
+    height: 80px;
+    width: 80px;
+    background-color:rgb(80, 77, 77) ;
+    border-radius: 30%;
+    border:none;
+    box-shadow: 2px 2px 15px rgb(248, 247, 247);
+    font-size: 13px;
+    text-transform:uppercase;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(250, 248, 242);
+    transition-duration: 0.4s;
+}
+.wth:hover{ 
+    background-color: rgb(8, 8, 8);
+}
+
+
+    
+
+   

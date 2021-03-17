@@ -1,0 +1,176 @@
+@font-face{
+    font-family: time;
+    src:url('../fonts/good\ times.ttf')
+
+}
+body{
+    margin:o;
+    padding:0;
+}
+*{
+    box-sizing: border-box;
+}
+ a{
+     text-decoration: none;
+ }
+nav{
+    position: relative;
+    box-shadow: 4px 4px 4px rgb(233, 228, 228);
+}
+nav.row{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.row{
+    display:flex ;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+
+
+.navlist{
+    margin-left: auto;
+}
+.navlist li {
+    display: inline-block;
+  
+  
+
+}
+.navlist li a{
+    font-family: time;
+    display: inline-block;
+    padding:10px;
+    color: rgb(121, 24, 37);
+    font-size: 14px;
+}
+.logo{
+    position:absolute;
+    width:70px;
+    object-fit: contain;
+    border-radius: 2px;
+    top: 10px;
+    margin-left: 35px;
+}
+
+    
+.container{
+    
+    width: 1250px;
+    margin: auto;
+    max-width: 100%;
+}
+.droplist{
+    position: relative;
+    
+}
+
+.dropdown{
+position: absolute;
+background-color: rgb(231, 229, 226);
+border: 3px solid rgb(238, 233, 233);
+border-radius: 4px;
+padding: 10px;
+box-shadow: 8px 8px 8px rgb(240, 219, 219);
+transition: ease-in-out .5s;
+height: 0rem;
+opacity: 0;
+pointer-events: none;
+
+}
+.droplist:hover .dropdown{
+height: 12rem;
+opacity: 1;
+pointer-events: all;
+
+}
+header{
+    background-image: url('../img/photo1.jpg');
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 4px 4px 4px rgb(197, 192, 192);
+}
+.text{
+    display: inline-block;
+    background-color: rgb(177, 175, 173);
+    text-align: center;
+    font-family: time;
+    text-decoration: cornsilk;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 2px;
+    min-width:500px;
+    
+}
+.list li{
+    display: inline-block;
+    padding-left: 0;
+    font-family: time;
+    font-size: 14px;
+    padding: 15px;
+}
+.list li:first-child{
+    background-color: rgb(177, 175, 173);
+    border-radius: 2px;
+}
+.list{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.col-3{
+    width:33.3333%;
+    padding:0 15px;
+}
+.cards{
+    box-shadow: 4px 4px 4px rgb(197, 192, 192);
+    border-radius: 3px;
+}
+.cards img{
+    max-width: 100%;
+    height: 200px;
+    object-fit:cover;
+}
+.cards-body{
+    padding: 20px;
+    text-align: center;
+    font-family: time;
+}
+.footer{
+    display: flex;
+   
+   
+    
+   
+}
+.contact{ 
+
+    padding: 20px;
+    font-size: 10px;
+}
+
+
+
+    .contact a{ 
+        padding: 15px;
+        justify-content: flex-end;
+        font-family: time;
+        color: rgb(8, 0, 0);
+    }
+
+
+@media (max-width:700px){
+    .navlist {
+        display: flex;
+        flex-direction: column;
+        
+    }
+@media (max-width:550px){
+    header{
+        display: none;
+    }

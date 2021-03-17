@@ -1,0 +1,25 @@
+@font-face {
+    font-family: alk;
+   src:url('../fonts/alk-sanet-webfont.woff'); 
+}
+
+
+
+.card{
+    width:250px;
+    border:2px solid blue;
+    box-shadow:2px 2px 20px #000;
+    border-radius:7px;
+}
+.card2 h2{
+    text-align: center;
+}
+.card1 p
+{
+
+}
+
+.w-100{
+ 
+width: 100%;
+}

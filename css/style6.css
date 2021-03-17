@@ -1,0 +1,16 @@
+.main{
+    display: block;
+    margin: auto;
+    width: 100%;
+   
+}
+.first{ width: 800px;
+    
+
+}
+.second{
+    background-color: blue;
+}
+h1{
+    background-color: coral;
+}

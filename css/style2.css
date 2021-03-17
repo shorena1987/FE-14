@@ -1,0 +1,83 @@
+
+@font-face{
+    font-family: sanet;
+    src: url('../fonts/alk-sanet-webfont.woff');
+}
+.bodystyle{
+    background: rgb(113,199,80);
+background: linear-gradient(90deg, rgba(113,199,80,1) 0%, rgba(141,193,122,1) 30%, rgba(69,124,204,0.6001751042213761) 65%, rgba(0,212,255,1) 100%);
+}
+
+
+.backstyle {
+    width: 700px;
+    height: 600px;
+    background-color: rgb(252, 250, 247);
+    margin: auto;
+    margin-top: 50px; font-family: sanet;
+    
+}
+.header{
+    padding-top:20px ;
+}
+.forma{
+   
+    margin: 50px;
+}
+
+
+.input{
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 20px;
+     
+    
+}
+.input1{
+    width:50%
+    
+}
+.input2{
+    margin-left: 35%;
+    width: 50%;
+}
+.inp{
+    
+    border: none;
+    padding: 15px;
+    background-color: rgb(223, 219, 219);
+    
+}
+.inp1{
+    border: none;
+    padding: 15px;
+    width: 95%;
+    background-color: rgb(223, 219, 219);
+     
+
+    
+
+}
+
+.textarea{
+    border: none;
+    padding: 15px;
+    width: 95%;
+    background-color: rgb(223, 219, 219);
+    
+}
+.btn{
+  display: flex;
+  padding-top:20px;
+  justify-content: center;
+}
+.button{
+    background: rgb(113,199,80);
+    background: linear-gradient(90deg, rgba(113,199,80,1) 0%, rgba(141,193,122,1) 30%, rgba(69,124,204,0.6001751042213761) 65%, rgba(0,212,255,1) 100%);
+  padding:10px;
+  color: azure;
+  box-shadow: 1px 1px 1px rgb(153, 130, 130) ;
+  font-size: 15px;
+  border:none;
+}
+  
