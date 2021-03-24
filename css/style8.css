@@ -1,0 +1,80 @@
+@font-face{
+    font-family: time;
+    src: url(../fonts/good\ times.ttf);
+}
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    bottom: 0;
+}
+#video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.text {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    color: rgb(230, 192, 167);
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: time;
+}
+ #small{
+     font-size: 15px;
+     margin-left: 200px;
+     margin-right: 200px;
+    }
+     
+   
+ }
+ .btn{
+     position: fixed;
+     
+     width: 100%;
+    
+ 
+    
+    
+    
+ }
+  .btn1{
+      width: 250px;
+      font-family: time;
+      margin-top: 50px;
+      border-radius: 20px;
+      padding: 10px;
+      background-color: rgb(233, 119, 98);
+      color: rgb(230, 192, 167);
+      border:none;
+      font-size: 12px;
+      text-align: center;
+  }
+    
+  .btn2{
+    width: 250px;
+    font-family: time;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 10px;
+   
+    color: rgb(230, 192, 167);
+    border:1px solid #fff ;
+    font-size: 12px;
+    text-align: center;
+    background-color: transparent;
+  
+}
+
+ .icons {
+     position: fixed;
+     width: 100%;
+     margin-top: 100px;
+ }
